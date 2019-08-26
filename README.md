@@ -8,6 +8,7 @@ Create a virtual environment variable and, then, run requirements.txt
 ```bash
 1) python -m venv myvenv
 2) myvenv\Scripts\activate
+3) python setup.py install
 3) pip install -r requirements.txt
 ```
 

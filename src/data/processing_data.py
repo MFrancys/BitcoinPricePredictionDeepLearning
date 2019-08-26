@@ -1,4 +1,9 @@
+import numpy as np
+import pandas as pd 
 from statsmodels.tsa.stattools import adfuller, kpss
+###Import package to preprocessing dataset and evaluate performance of the models
+from sklearn.metrics import mean_squared_error
+from sklearn.preprocessing import MinMaxScaler
 
 def test_stationary(df, TARGET):
   #Check Stationary wit ADF Test
@@ -16,3 +21,24 @@ def test_stationary(df, TARGET):
 def inverse_difference(history, yhat, interval=1):
     # invert differenced value
 	return yhat + history[-interval]
+
+# scale train and test data to [0, 1]
+def scale(train, test):
+	# fit scaler
+	scaler = MinMaxScaler(feature_range=(0, 1))
+	scaler = scaler.fit(train)
+	# transform train
+	train = train.reshape(train.shape[0], train.shape[1])
+	train_scaled = scaler.transform(train)
+	# transform test
+	test = test.reshape(test.shape[0], test.shape[1])
+	test_scaled = scaler.transform(test)
+	return scaler, train_scaled, test_scaled
+
+# inverse scaling for a forecasted value
+def invert_scale(scaler, X, value):
+	new_row = np.append(X, value)
+	array = np.array(new_row)
+	array = array.reshape(1, len(array))
+	inverted = scaler.inverse_transform(array)
+	return inverted[0, -1]

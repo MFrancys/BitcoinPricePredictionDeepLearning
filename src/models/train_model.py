@@ -1,3 +1,21 @@
+###Import packages for the creation of neuronal networks
+import tensorflow as tf
+import keras
+from keras import backend as K
+#K.tensorflow_backend._get_available_gpus()
+sess = tf.compat.v1.Session()
+keras.backend.set_session(sess)
+
+from keras.models import Sequential
+from keras.models import Model
+from keras.layers import Dense
+from keras.layers import LSTM
+from keras.layers import Activation
+from keras.layers import Dropout
+from keras.layers import Input
+from keras.optimizers import Adam, Nadam, SGD
+from keras.activations import softplus
+from keras.losses import categorical_crossentropy, logcosh
 
 # fit an LSTM network to training data
 def fit_lstm(x_train, y_train, x_val, y_val, params):

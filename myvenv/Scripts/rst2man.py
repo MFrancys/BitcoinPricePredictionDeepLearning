@@ -1,4 +1,4 @@
-#!c:\users\ecf4886c\desktop\proyectospythonmf\bitcoinpriceprediction\myvenv\scripts\python.exe
+#!c:\users\administrator\desktop\mfrancys\bitcointimeseriesanalysis\myvenv\scripts\python.exe
 
 # Author: 
 # Contact: grubert@users.sf.net

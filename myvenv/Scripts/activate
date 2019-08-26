@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\ECF4886C\Desktop\ProyectosPythonMF\BitcoinPricePrediction\myvenv"
+VIRTUAL_ENV="C:\Users\Administrator\Desktop\MFrancys\BitcoinTimeSeriesAnalysis\myvenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
