@@ -14,7 +14,7 @@ Create a virtual environment variable and, then, run requirements.txt
 
 
 Usage:
-To predict daily closing price Bitcoin, you must run the notebook called UNIVARIATE_TIME_SERIES_ANALYSIS_AND_AUTOMATIC_FEATURE_EXTRATION - BITCOIN.ipynb
+To predict daily closing price Bitcoin, you must run the notebook called PREDICTION OF DAILY CLOSING PRICES OF BITCOIN.ipynb
 
 ```bash
 1) ipython kernel install --user --name=myvenv
@@ -37,7 +37,7 @@ Project Organization
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
-    ├── PREDICTION OF DAILY CLOSING PRICES OF BITCOIN WITH RECURRENT NEURAL NETWORKS (with LSTM) AND HYPERPARAMETER OPTIMIZATION WITH KERAS MODELS.ipynb         <- Jupyter notebooks to get predictions. 
+    ├── PREDICTION OF DAILY CLOSING PRICES OF BITCOIN.ipynb         <- Jupyter notebooks to get predictions. 
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
