@@ -1,4 +1,4 @@
-#!c:\users\ecf4886c\desktop\proyectospythonmf\bitcoinpriceprediction\myvenv\scripts\python.exe
+#!c:\users\administrator\desktop\mfrancys\bitcoinpriceprediction\myvenv\scripts\python.exe
 
 # $Id: rst2odt_prepstyles.py 5839 2009-01-07 19:09:28Z dkuhlman $
 # Author: Dave Kuhlman <dkuhlman@rexx.com>

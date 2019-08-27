@@ -27,7 +27,7 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
-$env:VIRTUAL_ENV="C:\Users\ECF4886C\Desktop\ProyectosPythonMF\BitcoinPricePrediction\myvenv"
+$env:VIRTUAL_ENV="C:\Users\Administrator\Desktop\MFrancys\BitcoinPricePrediction\myvenv"
 
 if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
     # Set the prompt to include the env name

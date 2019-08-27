@@ -1,4 +1,4 @@
-#!c:\users\ecf4886c\desktop\proyectospythonmf\bitcoinpriceprediction\myvenv\scripts\python.exe
+#!c:\users\administrator\desktop\mfrancys\bitcoinpriceprediction\myvenv\scripts\python.exe
 
 import sys
 import json

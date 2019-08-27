@@ -1,4 +1,12 @@
-def get_predictions_lstm(df_daily_features, n_predictions, max_time, TARGET, p, adf_test ):
+import pandas as pd
+import numpy as np
+from src.data.processing_data import scale
+from src.data.processing_data import invert_scale
+from src.data.processing_data import inverse_difference
+from src.models.train_model import fit_lstm
+import talos as ta
+
+def get_predictions_lstm(df_daily_features, n_predictions, max_time, TARGET, p, adf_test, raw_values):
 
   ### Split data into train and test-set
   supervised_values = df_daily_features.values

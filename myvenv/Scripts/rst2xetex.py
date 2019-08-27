@@ -1,4 +1,4 @@
-#!c:\users\ecf4886c\desktop\proyectospythonmf\bitcoinpriceprediction\myvenv\scripts\python.exe
+#!c:\users\administrator\desktop\mfrancys\bitcoinpriceprediction\myvenv\scripts\python.exe
 
 # $Id: rst2xetex.py 7847 2015-03-17 17:30:47Z milde $
 # Author: Guenter Milde

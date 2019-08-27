@@ -8,7 +8,16 @@ Create a virtual environment variable and, then, run requirements.txt
 ```bash
 1) python -m venv myvenv
 2) myvenv\Scripts\activate
-3) pip install -r requirements.txt
+3) python setup.py install
+4) pip install -r requirements.txt
+```
+
+Usage:
+To predict daily closing price Bitcoin, you must run the notebook called UNIVARIATE_TIME_SERIES_ANALYSIS_AND_AUTOMATIC_FEATURE_EXTRATION - BITCOIN.ipynb
+
+```bash
+1) ipython kernel install --user --name=myvenv
+2) jupyter notebook
 ```
 
 Project Organization
@@ -27,9 +36,7 @@ Project Organization
     │
     ├── models             <- Trained and serialized models, model predictions, or model summaries
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── PREDICTION OF DAILY CLOSING PRICES OF BITCOIN WITH RECURRENT NEURAL NETWORKS (with LSTM) AND HYPERPARAMETER OPTIMIZATION WITH KERAS MODELS.ipynb         <- Jupyter notebooks to get predictions. 
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
