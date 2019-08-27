@@ -12,6 +12,7 @@ Create a virtual environment variable and, then, run requirements.txt
 4) pip install -r requirements.txt
 ```
 
+
 Usage:
 To predict daily closing price Bitcoin, you must run the notebook called UNIVARIATE_TIME_SERIES_ANALYSIS_AND_AUTOMATIC_FEATURE_EXTRATION - BITCOIN.ipynb
 
