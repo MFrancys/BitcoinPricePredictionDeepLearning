@@ -19,4 +19,4 @@ keras
 plotly
 setuptools>=41.0.0
 colorama>=0.2.5
-scipy==1.2
+scipy==1.10.0
